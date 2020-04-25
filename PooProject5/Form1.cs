@@ -12,10 +12,16 @@ namespace PooProject5
 {
     public partial class Form1 : Form
     {
+        Image dado1 = new Image();
         public Form1()
         {
             InitializeComponent();
             //prueba
+        }
+
+        private void botonLanzar_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

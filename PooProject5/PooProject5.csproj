@@ -79,5 +79,25 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\d1.png" />
+    <Content Include="Resources\d2.png" />
+    <Content Include="Resources\d3.png" />
+    <Content Include="Resources\d4.png" />
+    <Content Include="Resources\d5.png" />
+    <Content Include="Resources\d6.png" />
+    <Content Include="Resources\dd1.png" />
+    <Content Include="Resources\dd2.png" />
+    <Content Include="Resources\dd3.png" />
+    <Content Include="Resources\dd4.png" />
+    <Content Include="Resources\dd5.png" />
+    <Content Include="Resources\dd6.png" />
+    <Content Include="Resources\limpiar.png" />
+    <Content Include="Resources\Salir1.jpg" />
+    <Content Include="Resources\salir2.JPG" />
+    <Content Include="Resources\Sin título.png" />
+    <Content Include="Resources\ufv.jpg" />
+    <Content Include="Resources\ufvico.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
