@@ -12,7 +12,7 @@ namespace PooProject5
 {
     public partial class Form1 : Form
     {
-        Image dado1 = new Image();
+        Image dado1;
         public Form1()
         {
             InitializeComponent();
@@ -21,7 +21,7 @@ namespace PooProject5
 
         private void botonLanzar_Click(object sender, EventArgs e)
         {
-            
+            pictureBox1.
         }
     }
 }
