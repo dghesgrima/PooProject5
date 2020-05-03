@@ -12,7 +12,9 @@ namespace PooProject5
 {
     public partial class Form1 : Form
     {
-        Image dado1;
+        Image dado;
+        string[] ListaDados = new string[6];
+
         public Form1()
         {
             InitializeComponent();
@@ -21,7 +23,20 @@ namespace PooProject5
 
         private void botonLanzar_Click(object sender, EventArgs e)
         {
-            pictureBox1.
+            tiradas();
+            dado = Image.FromFile("dd1.png");
+            pic1.Image = dado;
+
+        }
+        private void tiradas()
+        {
+
+        }
+        public int RandomNumber(int min, int max)
+        {
+            Random random = new Random();
+            return random.Next(0, 5);
+
         }
     }
 }
