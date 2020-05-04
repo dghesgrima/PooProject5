@@ -66,6 +66,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.BackColor = System.Drawing.Color.Green;
             this.tabPage1.Controls.Add(this.labelResultado);
             this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Controls.Add(this.botonLimpiar);
@@ -84,7 +85,6 @@
             this.tabPage1.Size = new System.Drawing.Size(1349, 706);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
-            this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // labelResultado
             // 
@@ -139,7 +139,7 @@
             // 
             this.label1.BackColor = System.Drawing.Color.Yellow;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(492, 215);
+            this.label1.Location = new System.Drawing.Point(504, 230);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(380, 43);
             this.label1.TabIndex = 6;
@@ -189,9 +189,10 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(580, 46);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(646, 101);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(170, 152);
+            this.pictureBox1.Size = new System.Drawing.Size(80, 82);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
